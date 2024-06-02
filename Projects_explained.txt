@@ -1,0 +1,171 @@
+### Case Examples with Tasks and Questions for Each Project
+
+#### **Beginner Projects**
+
+1. **Data Cleaning and Visualization**
+   - **Case Example**: Analyze the Titanic dataset to understand passenger demographics and survival rates.
+   - **Tasks**:
+     1. Load the Titanic dataset.
+     2. Handle missing data.
+     3. Perform exploratory data analysis (EDA).
+     4. Visualize survival rates by passenger class, gender, and age.
+   - **Questions**:
+     1. What are the most significant factors affecting passenger survival?
+     2. How does the survival rate vary across different passenger classes?
+
+2. **Simple Linear Regression**
+   - **Case Example**: Predict housing prices based on various features (e.g., size, number of rooms).
+   - **Tasks**:
+     1. Load and preprocess the housing dataset.
+     2. Split the data into training and testing sets.
+     3. Train a linear regression model.
+     4. Evaluate the model’s performance.
+   - **Questions**:
+     1. What is the coefficient of determination (R²) of your model?
+     2. How do the different features impact the housing prices?
+
+#### **Intermediate Projects**
+
+3. **Image Classification with CNNs**
+   - **Case Example**: Classify images of handwritten digits from the MNIST dataset.
+   - **Tasks**:
+     1. Load the MNIST dataset.
+     2. Build a convolutional neural network (CNN).
+     3. Train the CNN on the training set.
+     4. Evaluate the model on the test set.
+   - **Questions**:
+     1. What is the accuracy of your CNN on the test set?
+     2. How does changing the network architecture affect performance?
+
+4. **Sentiment Analysis with LSTMs**
+   - **Case Example**: Analyze the sentiment of movie reviews (positive/negative).
+   - **Tasks**:
+     1. Load the IMDB movie reviews dataset.
+     2. Preprocess the text data (tokenization, padding).
+     3. Build an LSTM network for sentiment analysis.
+     4. Train and evaluate the model.
+   - **Questions**:
+     1. What is the model’s accuracy in predicting sentiment?
+     2. How does the choice of hyperparameters affect the model's performance?
+
+5. **Deploying a Model on AWS**
+   - **Case Example**: Deploy a trained machine learning model as an API using AWS SageMaker.
+   - **Tasks**:
+     1. Train a machine learning model locally.
+     2. Deploy the model using AWS SageMaker.
+     3. Create an API using AWS Lambda.
+     4. Test the API with sample inputs.
+   - **Questions**:
+     1. How do you handle model updates and redeployment?
+     2. What are the latency and throughput of your deployed model?
+
+#### **Advanced Projects**
+
+6. **Real-Time Object Detection**
+   - **Case Example**: Implement a real-time object detection system using YOLO on a traffic camera feed.
+   - **Tasks**:
+     1. Load and preprocess the dataset.
+     2. Train the YOLO model.
+     3. Implement real-time detection using OpenCV.
+     4. Optimize the model with TensorRT.
+   - **Questions**:
+     1. What is the detection accuracy and speed of your model?
+     2. How does optimization with TensorRT improve performance?
+
+7. **Recommender System**
+   - **Case Example**: Build a movie recommendation system based on user ratings.
+   - **Tasks**:
+     1. Load the MovieLens dataset.
+     2. Implement collaborative filtering.
+     3. Train the recommender system.
+     4. Evaluate recommendations.
+   - **Questions**:
+     1. How accurate are the recommendations?
+     2. How can you handle the cold-start problem for new users and items?
+
+8. **Generative Adversarial Networks (GANs)**
+   - **Case Example**: Generate new images of handwritten digits.
+   - **Tasks**:
+     1. Load the MNIST dataset.
+     2. Build and train a GAN.
+     3. Generate new images and evaluate their quality.
+   - **Questions**:
+     1. How do you evaluate the quality of the generated images?
+     2. What are the main challenges in training GANs?
+
+9. **Adversarial Feature Augmentation**
+   - **Case Example**: Improve model robustness by augmenting the training data with adversarial examples.
+   - **Tasks**:
+     1. Generate adversarial examples.
+     2. Augment the training dataset.
+     3. Retrain the model and evaluate its robustness.
+   - **Questions**:
+     1. How do adversarial examples affect model performance?
+     2. What techniques can you use to defend against adversarial attacks?
+
+#### **Specialized Projects**
+
+10. **Knowledge Graph for Recommendation**
+    - **Case Example**: Improve movie recommendations by integrating a knowledge graph.
+    - **Tasks**:
+      1. Build a knowledge graph from movie metadata.
+      2. Integrate the knowledge graph with the recommender system.
+      3. Evaluate the enhanced recommendations.
+    - **Questions**:
+      1. How does the knowledge graph improve recommendation accuracy?
+      2. What are the challenges in integrating a knowledge graph?
+
+11. **Neural Architecture Search (NAS)**
+    - **Case Example**: Automatically search for the optimal neural network architecture for image classification.
+    - **Tasks**:
+      1. Implement NAS using an AutoML framework.
+      2. Train and evaluate the searched architectures.
+      3. Compare the performance with manually designed architectures.
+    - **Questions**:
+      1. How does NAS improve over manual architecture design?
+      2. What are the computational requirements for NAS?
+
+12. **Panoptic Segmentation**
+    - **Case Example**: Segment both objects and background in street scenes.
+    - **Tasks**:
+      1. Load a dataset like Cityscapes.
+      2. Implement a panoptic segmentation model.
+      3. Train and evaluate the model.
+    - **Questions**:
+      1. How do you handle the trade-off between object detection and segmentation quality?
+      2. What are the key metrics for evaluating panoptic segmentation?
+
+13. **End-to-End Time Series Forecasting System**
+    - **Case Example**: Forecast electricity consumption using a deep learning model.
+    - **Tasks**:
+      1. Load and preprocess the time series data.
+      2. Build and train a forecasting model.
+      3. Deploy the model as a web application.
+    - **Questions**:
+      1. How accurate is the forecasting model?
+      2. How do you handle seasonality and trends in the data?
+
+14. **LMQL-based Natural Language Interface**
+    - **Case Example**: Develop an interface that allows natural language queries to a movie database.
+    - **Tasks**:
+      1. Train a language model using LMQL.
+      2. Integrate the model with a database.
+      3. Build a web interface for querying.
+    - **Questions**:
+      1. How do you ensure the accuracy of the natural language interface?
+      2. What are the challenges in processing natural language queries?
+
+#### **Capstone Project**
+
+15. **Comprehensive Autonomous Driving Perception System**
+    - **Case Example**: Develop a multi-view perception system for autonomous vehicles.
+    - **Tasks**:
+      1. Integrate multiple sensors (cameras, LiDAR).
+      2. Implement object detection and segmentation.
+      3. Develop path planning algorithms.
+      4. Test the system in a simulated environment.
+    - **Questions**:
+      1. How do you handle sensor fusion and synchronization?
+      2. What are the key challenges in real-time perception for autonomous driving?
+
+By working through these projects, you will gain hands-on experience with the necessary tools, technologies, and libraries, progressing from beginner to advanced levels within three months.
