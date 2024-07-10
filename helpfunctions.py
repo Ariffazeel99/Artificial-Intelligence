@@ -26,3 +26,5 @@ def write_json(filename, data):
 
     except json.JSONDecodeError:
         print("Error writing ",filename)
+
+write_json('results.json',results)
