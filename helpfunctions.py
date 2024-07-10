@@ -1,3 +1,4 @@
+import json
 def read_json(filename):
     '''
         read json
