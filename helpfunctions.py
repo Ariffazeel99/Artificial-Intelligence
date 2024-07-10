@@ -13,3 +13,16 @@ def read_json(filename):
         print(f"Error: File '{filename}' not found.")
         return None
     return data
+
+
+def write_json(filename, data):
+    '''
+        write json
+    '''
+    try:
+        with open(filename,'w') as f:
+            print("writing, ",filename)
+            json.dump(data, f, indent=4)
+
+    except json.JSONDecodeError:
+        print("Error writing ",filename)
