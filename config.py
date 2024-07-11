@@ -9,4 +9,7 @@ access_token_url=""
 access_token_response = requests.post(access_token_url, data=access_token_request_data).json()
 access_token=access_token_response['access_token']
 
-query = 
+query = data={'messages':[{'role':'user','content':f'{query}'}], 'source': "web", 'userName': "abc"}
+resp = requests.post(bot_url, data=json.dumps(data), headers=headers)
+response = resp.json()
+answer=response["answer"]
